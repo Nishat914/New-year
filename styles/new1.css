@@ -1,0 +1,40 @@
+.banner1{
+    max-width: 1600px;
+    position: relative;
+}
+.img1{
+    width:100%;
+    display: block;
+}
+.text{
+    position: absolute;
+    top:50%;
+    right:10%;
+    transform:translateY(-50%);
+    width:525px;
+    text-align: right;
+    
+
+}
+.text h2{
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+    display: block;
+}
+/* .text p{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 26px;
+    color:#444343;
+    width: 494px;
+    height: 78px;
+
+} */
+
+.text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding: 24px 0px 32px 0px;
+}
