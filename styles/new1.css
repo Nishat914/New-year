@@ -1,3 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1600px;
+    margin:0 auto;
+}
+.work-sens{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
 .banner1{
     max-width: 1600px;
     position: relative;
@@ -9,7 +22,7 @@
 .text{
     position: absolute;
     top:50%;
-    right:10%;
+    right:12%;
     transform:translateY(-50%);
     width:525px;
     text-align: right;
@@ -21,20 +34,24 @@
     font-weight: bold;
     color: #151414;
     display: block;
+    margin: 0;
 }
-/* .text p{
+.text p{
     margin-top: 24px;
     font-size: 16px;
     line-height: 26px;
     color:#444343;
-    width: 494px;
-    height: 78px;
-
-} */
-
-.text p{
-    font-size: 16px;
-    line-height: 26px;
-    color: #444343;
-    padding: 24px 0px 32px 0px;
+    /* max-width: 494px; */
 }
+.button{
+    padding: 21px 25px 20px 26px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: #F15B22;
+    border: none;
+    margin-top: 32px;
+    border-radius: 5%;
+    cursor:pointer;
+}
+
